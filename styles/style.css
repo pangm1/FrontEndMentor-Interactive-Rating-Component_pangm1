@@ -51,6 +51,18 @@ body {
         margin-top: 1rem;
         border-top: 2px solid var(--white);
         text-align: center;
+
+        a:visited {
+            color: lightpink;
+        }
+
+        a:active {
+            color: lightblue;
+        }
+
+        a:hover {
+            color: lightsalmon;
+        }
     }
 }
 
@@ -79,7 +91,7 @@ article.rating-component {
 }
 
 
-
+/* states */
 article {
     .state {
         display: none;
@@ -225,6 +237,8 @@ article {
     }
 }
 
+
+/* media query */
 @media(min-width: 30rem) {
     article.rating-component {
         --card-gap: 2rem;
